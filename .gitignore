@@ -1,0 +1,7 @@
+# Environments
+.env
+
+# Steam artifacts
+workshop.vdf
+
+# Game intermediate builds and artifacts
