@@ -43,7 +43,6 @@ starbase_alloys_hub = {
                 food = 10
             }
         }
-
 	}
 
 	show_in_tech = "tech_alloys_2"
