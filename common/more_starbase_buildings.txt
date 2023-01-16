@@ -1,0 +1,80 @@
+starbase_alloys_hub = {
+	icon = "GFX_orbitalring_alloy_hub"
+	construction_days = 360
+
+	potential = {
+		exists = owner
+		owner = { has_technology = tech_alloys_2 }
+		is_orbital_ring = no
+	}
+
+#	triggered_planet_modifier = {
+#		potential = {
+#			exists = owner
+#			owner = {
+#				is_catalytic_empire = no
+#			}
+#		}
+#		modifier = {
+#			planet_metallurgists_alloys_produces_add = 1
+#			planet_metallurgists_minerals_upkeep_add = 2
+#		}
+#	}
+
+#	triggered_planet_modifier = {
+#		potential = {
+#			exists = owner
+#			owner = {
+#				is_catalytic_empire = yes
+#			}
+#		}
+#		modifier = {
+#			planet_metallurgists_alloys_produces_add = 1
+#			planet_metallurgists_food_upkeep_add = 3
+#		}
+#	}
+
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 200
+		}
+
+        produces = {
+            alloys = 12
+        }
+
+		upkeep = {
+			energy = 2
+			minerals = 10
+		}
+        trigger = {
+            exists = owner
+            owner = {
+                is_catalytic_empire = no
+            }
+            upkeep = {
+                energy = 2
+                minerals = 10
+            }
+        }
+
+        trigger = {
+            exists = owner
+            owner = {
+                is_catalytic_empire = yes
+            }
+            upkeep = {
+                energy = 2
+                food = 10
+            }
+        }
+
+	}
+
+	show_in_tech = "tech_alloys_2"
+
+	ai_weight = {
+		weight = 100
+	}
+}
