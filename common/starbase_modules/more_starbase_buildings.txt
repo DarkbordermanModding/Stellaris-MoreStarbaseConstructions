@@ -4,7 +4,10 @@ starbase_alloys_hub = {
 
 	potential = {
 		exists = owner
-		owner = { has_technology = tech_alloys_2 }
+		owner = {
+            has_technology = tech_alloys_2
+            is_catalytic_empire = no
+        }
 		is_orbital_ring = no
 	}
 
@@ -20,29 +23,44 @@ starbase_alloys_hub = {
 
 		upkeep = {
 			energy = 2
-			minerals = 10
+			minerals = 15
 		}
-        trigger = {
-            exists = owner
-            owner = {
-                is_catalytic_empire = no
-            }
-            upkeep = {
-                energy = 2
-                minerals = 10
-            }
+	}
+
+	show_in_tech = "tech_alloys_2"
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+starbase_alloys_hub_catalytic_empire = {
+	icon = "GFX_orbitalring_alloy_hub"
+	construction_days = 360
+
+	potential = {
+		exists = owner
+		owner = {
+            has_technology = tech_alloys_2
+            is_catalytic_empire = yes
+        }
+		is_orbital_ring = no
+	}
+
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 200
+		}
+
+        produces = {
+            alloys = 12
         }
 
-        trigger = {
-            exists = owner
-            owner = {
-                is_catalytic_empire = yes
-            }
-            upkeep = {
-                energy = 2
-                food = 10
-            }
-        }
+		upkeep = {
+			energy = 2
+			food = 15
+		}
 	}
 
 	show_in_tech = "tech_alloys_2"
