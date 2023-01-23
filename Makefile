@@ -1,5 +1,6 @@
 include .env
 export
+
 generate_vdf:
 	envsubst < template.vdf > workshop.vdf
 
