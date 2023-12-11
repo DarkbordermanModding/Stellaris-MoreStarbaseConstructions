@@ -1,4 +1,4 @@
-starbase_alloys_hub = {
+more_sb_alloys_production_building = {
 	icon = "GFX_orbitalring_alloy_hub"
 	construction_days = 360
 
@@ -34,7 +34,7 @@ starbase_alloys_hub = {
 	}
 }
 
-starbase_alloys_hub_catalytic_empire = {
+more_sb_alloys_production_building_catalytic_empire = {
 	icon = "GFX_orbitalring_alloy_hub"
 	construction_days = 360
 

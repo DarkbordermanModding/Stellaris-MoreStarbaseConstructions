@@ -1,4 +1,6 @@
 ﻿l_english:
 
- starbase_alloys_hub:0 "Thought cleansing"
- starbase_alloys_hub_desc:0 "It is important to rid ourselves of polluting thoughts and cultivate a pure and clear mind."
+ more_sb_alloys_production_building:0 "Alloy Production Building"
+ more_sb_alloys_production_building_desc:0 "Starbase building that produce alloys."
+ more_sb_alloys_production_building_catalytic_empire:0 "Alloy Production Building"
+ more_sb_alloys_production_building_catalytic_empire_desc:0 "Starbase building that produce alloys."
