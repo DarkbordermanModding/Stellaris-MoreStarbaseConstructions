@@ -1,8 +1,8 @@
 workshop:
   app_id: 281990
-  publishedfield_id: 2911927696
-  title: "More repeatable technologies"
-  description: "More repeatable technologies"
+  publishedfield_id: 2919204483
+  title: "More starbase modules and constructions"
+  description: "More starbase modules and constructions"
   visibility: 2
   preview_path: preview.png
   content_folder: "./"
