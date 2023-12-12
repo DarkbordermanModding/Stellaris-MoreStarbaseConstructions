@@ -4,3 +4,7 @@
  sm_more_sb_alloys_production_building_desc:0 "Starbase building that produce alloys."
  sm_more_sb_alloys_production_building_catalytic_empire:0 "Alloy Production Building"
  sm_more_sb_alloys_production_building_catalytic_empire_desc:0 "Starbase building that produce alloys."
+ sm_more_sb_alloys_production_module:0 "Alloy Production Module"
+ sm_more_sb_alloys_production_module_desc:0 "Starbase module that produce alloys."
+ sm_more_sb_alloys_production_module_catalytic_empire:0 "Alloy Production Module"
+ sm_more_sb_alloys_production_module_catalytic_empire_desc:0 "Starbase module that produce alloys."
