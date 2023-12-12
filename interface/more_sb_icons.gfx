@@ -3,11 +3,11 @@ spriteTypes = {
 		name = "GFX_more_sb_sm_alloys_production"
 		texturefile = "gfx/icons/sm_alloys_production.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_more_sb_sm_consumer_goods_booster"
 		texturefile = "gfx/icons/sm_consumer_goods_booster.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_more_sb_sm_alloys_booster"
 		texturefile = "gfx/icons/sm_alloys_booster.dds"
 	}
@@ -32,8 +32,8 @@ spriteTypes = {
 		texturefile = "gfx/icons/sm_farming_hub.dds"
 	}
 	spriteType = {
-		name = "GFX_more_sb_sm_energy_hub"
-		texturefile = "gfx/icons/sm_energy_hub.dds"
+		name = "GFX_more_sb_sm_energy_production"
+		texturefile = "gfx/icons/sm_energy_production.dds"
 	}
 	spriteType = {
 		name = "GFX_more_sb_sm_culture_booster"
