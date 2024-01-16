@@ -69,3 +69,38 @@ more_sb_alloys_production_building_catalytic_empire = {
 		weight = 100
 	}
 }
+
+more_sb_empire_regulation_system = {
+	icon = "GFX_starm_sm_admin_hub"
+	construction_days = 360
+
+	potential = {
+		exists = owner
+		owner = {
+            has_technology = tech_galatic_administration
+        }
+		is_orbital_ring = no
+	}
+
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 200
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	country_modifier = {
+		empire_size_colonies_mult = -0.005
+		empire_size_systems_mult = -0.01
+	}
+
+	show_in_tech = "tech_galatic_administration"
+
+	ai_weight = {
+		weight = 100
+	}
+}
